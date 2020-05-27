@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Galaxy S2 -->
+  <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-17.1" />
+<!-- Galaxy S3 -->
+  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-17.1" />
+ <!-- Shared Galaxy S2 and Galaxy S3 -->
+  <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-17.1" />
+<!-- Shared Samsung -->
+  <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+  <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
+<!-- Overidden repositories -->
+  <remove-project path="bionic" />
+  <project name="rinando/android_bionic" path="bionic" remote="github" revision="lineage-17.1" />
+  <remove-project path="system/sepolicy" />
+  <project name="rinando/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-17.1" />
+  <remove-project path="system/libhwbinder" />
+  <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="github" revision="lineage-17.1" />
+  <remove-project path="frameworks/base" />
+  <project name="rinando/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
+  <remove-project path="packages/apps/snap" />
+  <project name="rinando/android_packages_apps_snap" path="packages/apps/snap" remote="github" revision="lineage-17.1" />
+</manifest>
