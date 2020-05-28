@@ -12,14 +12,16 @@
   <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
   <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
 <!-- Overidden repositories -->
-  <remove-project path="bionic" />
+  <remove-project name="LineageOS/android_build_soong" />
+  <project name="rinando/android_build_soong" path="build/soong" remote="github" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_bionic" />
   <project name="rinando/android_bionic" path="bionic" remote="github" revision="lineage-17.1" />
-  <remove-project path="system/sepolicy" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="rinando/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-17.1" />
-  <remove-project path="system/libhwbinder" />
+  <remove-project name="platform/system/libhwbinder" />
   <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="github" revision="lineage-17.1" />
-  <remove-project path="frameworks/base" />
+  <remove-project name="LineageOS/android_frameworks_base" />
   <project name="rinando/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
-  <remove-project path="packages/apps/snap" />
-  <project name="rinando/android_packages_apps_snap" path="packages/apps/snap" remote="github" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_packages_apps_Snap" />
+  <project name="rinando/android_packages_apps_snap" path="packages/apps/Snap" remote="github" revision="lineage-17.1" />
 </manifest>
