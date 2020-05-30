@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Galaxy S2 -->
-  <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-16.0" />
-  <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-16.0" />
-<!-- Galaxy S3 -->
-  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="lineage-16.0" />
-  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-16.0" />
- <!-- Shared Galaxy S2 and Galaxy S3 -->
-  <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
-<!-- Shared Samsung -->
-  <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
-  <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
-<!-- Overidden repositories -->
-  <remove-project name="LineageOS/android_build_soong" />
-  <project name="rinando/android_build_soong" path="build/soong" remote="github" revision="lineage-16.0" />
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="rinando/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-16.0" />
+  <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="cm-14.1" />
+  <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="cm-14.1" />
+  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="cm-14.1" />
+  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-14.1" />
+  <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-14.1" />
+  <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
+  <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="LineageOS/android_external_libsamsung-ipc" path="external/libsamsung-ipc" remote="github" />
 </manifest>
