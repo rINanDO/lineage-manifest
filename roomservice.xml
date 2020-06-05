@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote  name="rinando"
+           fetch="https://github.com"
+           revision="lineage-17.1" />
+
 <!-- Galaxy S2 -->
-  <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="github" revision="lineage-17.1" />
-  <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="rinando" />
+  <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="rinando" />
 <!-- Galaxy S3 -->
-  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="lineage-17.1" />
-  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="rinando" />
+  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="rinando" />
  <!-- Shared Galaxy S2 and Galaxy S3 -->
-  <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="rinando" />
 <!-- Shared Samsung -->
-  <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
-  <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="rinando" />
+  <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="rinando" />
 <!-- Overidden repositories -->
   <remove-project name="LineageOS/android_build_soong" />
-  <project name="rinando/android_build_soong" path="build/soong" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_build_soong" path="build/soong" remote="rinando" />
   <remove-project name="LineageOS/android_bionic" />
-  <project name="rinando/android_bionic" path="bionic" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_bionic" path="bionic" remote="rinando" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="rinando/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_system_sepolicy" path="system/sepolicy" remote="rinando" />
   <remove-project name="platform/system/libhwbinder" />
-  <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="rinando" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="rinando/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_frameworks_base" path="frameworks/base" remote="rinando" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
-  <project name="rinando/android_packages_apps_snap" path="packages/apps/Snap" remote="github" revision="lineage-17.1" />
+  <project name="rinando/android_packages_apps_snap" path="packages/apps/Snap" remote="rinando" />
 </manifest>
