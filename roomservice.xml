@@ -24,6 +24,8 @@
   <project name="rinando/android_system_sepolicy" path="system/sepolicy" remote="rinando" />
   <remove-project name="platform/system/libhwbinder" />
   <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="rinando" />
+  <remove-project name="platform/system/libhidl" />
+  <project name="rinando/android_system_libhidl" path="system/libhidl" remote="rinando" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="rinando/android_frameworks_base" path="frameworks/base" remote="rinando" />
   <remove-project name="LineageOS/android_packages_apps_Snap" />
