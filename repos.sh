@@ -6,7 +6,7 @@ PROJECTS=(
 'build/soong		https://github.com/lineageos/android_build_soong	lineage lineage-17.1	https://github.com/rinando/android_build_soon		rinando	lineage-17.1	rebase'
 'system/sepolicy	https://github.com/lineageos/android_system_sepolicy	lineage	lineage-17.1 	https://github.com/rinando/android_system_sepolicy	rinando	lineage-17.1	rebase'
 'system/libhwbinder	https://android.googlesource.com/platform/system/libhwbinder	aosp	tags/android-10.0.0_r37 	https://github.com/rinando/android_system_libhwbinder	rinando	lineage-17.1	rebase'
-'system/libhidl        https://android.googlesource.com/platform/system/libhwhidl      aosp    tags/android-10.0.0_r37         https://github.com/rinando/android_system_libhidl       rinando lineage-17.1    rebase'
+'system/libhidl        https://android.googlesource.com/platform/system/libhidl      aosp    tags/android-10.0.0_r37         https://github.com/rinando/android_system_libhidl       rinando lineage-17.1    rebase'
 'frameworks/base	https://github.com/lineageos/android_frameworks_base	lineage	lineage-17.1 	https://github.com/rinando/android_frameworks_base	rinando	lineage-17.1	rebase'
 'vendor/samsung	https://github.com/themuppets/proprietary_vendor_samsung	themuppets	lineage-17.1	https://github.com/rinando/proprietary_vendor_samsung	rinando	lineage-17.1	rebase'
 'hardware/samsung	https://github.com/lineageos/android_hardware_samsung	lineage	lineage-17.1 	https://github.com/rinando/android_hardware_samsung	rinando	lineage-17.1	rebase'
