@@ -2,7 +2,7 @@
 <manifest>
 <remote  name="rinando"
            fetch="https://github.com"
-           revision="lineage-17.1" />
+           revision="lineage-18.0" />
 
 <!-- Galaxy S2 -->
   <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="rinando" />
@@ -16,14 +16,8 @@
   <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="rinando" />
   <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="rinando" />
 <!-- Overidden repositories -->
-  <remove-project name="LineageOS/android_bionic" />
-  <project name="rinando/android_bionic" path="bionic" remote="rinando" />
-  <remove-project name="platform/system/libhwbinder" />
-  <project name="rinando/android_system_libhwbinder" path="system/libhwbinder" remote="rinando" />
   <remove-project name="platform/system/libhidl" />
   <project name="rinando/android_system_libhidl" path="system/libhidl" remote="rinando" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="rinando/android_frameworks_base" path="frameworks/base" remote="rinando" />
-  <remove-project name="LineageOS/android_packages_apps_Snap" />
-  <project name="rinando/android_packages_apps_snap" path="packages/apps/Snap" remote="rinando" />
 </manifest>
