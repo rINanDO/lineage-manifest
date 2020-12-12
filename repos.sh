@@ -25,7 +25,6 @@ PROJECTS=(
 'build/soong				https://github.com/lineageos/android_soong				github		lineage-18.0			https://github.com/rinando/android_build_soong			rinando	lineage-18.0	rebase'
 'system/vold				https://github.com/lineageos/android_system_vold			github		lineage-18.0			https://github.com/rinando/android_system_vold			rinando	lineage-18.0	rebase'
 'prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9				https://github.com/rinando/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9			rinando	lineage-17.1			https://github.com/rinando/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9			rinando	lineage-18.0	rebase'
-'packages/apps/Settings		https://github.com/LineageOS/android_packages_apps_Settings		github		lineage-18.0			https://github.com/rinando/android_packages_apps_Settings		rinando	lineage-18.0	rebase'
 'external/ntfs-3g			https://github.com/LineageOS/android_external_ntfs-3g		github		lineage-18.0			https://github.com/rinando/android_external_ntfs-3g			rinando	lineage-18.0	checkout'
 'hardware/lineage/interfaces		https://github.com/LineageOS/android_hardware_lineage_interfaces	github		lineage-18.0			https://github.com/rinando/android_hardware_lineage_interfaces			rinando	lineage-18.0	rebase'
 )
