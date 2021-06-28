@@ -25,7 +25,8 @@ PROJECTS=(
 'prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9	https://github.com/rinando/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9	rinando	lineage-17.1			https://github.com/rinando/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9			rinando	lineage-18.1	rebase'
 'external/ntfs-3g	https://github.com/LineageOS/android_external_ntfs-3g	github	lineage-18.1	https://github.com/rinando/android_external_ntfs-3g	rinando	lineage-18.1	checkout'
 'hardware/lineage/interfaces	https://github.com/LineageOS/android_hardware_lineage_interfaces	github	lineage-18.1	https://github.com/rinando/android_hardware_lineage_interfaces	rinando	lineage-18.1	rebase'
-'vendor/samsung	https://github.com/themuppets/proprietary_vendor_samsung	themuppets	lineage-18.1	https://github.com/rinando/proprietary_vendor_samsung	rinando	lineage-18.1	rebase'
+'vendor/samsung	https://github.com/themuppets/proprietary_vendor_samsung	themuppets	lineage-18.1	https://github.com/rinando/proprietary_vendor_samsung	rinando	lineage-18.1	checkout'
 'build/make	https://github.com/lineageos/android_build	github	lineage-18.1	https://github.com/rinando/android_build	rinando	lineage-18.1	rebase'
+'packages/apps/PermissionController	https://github.com/LineageOS/android_packages_apps_PackageInstaller 	github	lineage-18.1	https://github.com/rinando/android_packages_apps_PackageInstaller 	rinando	lineage-18.1	rebase'
 )
 
