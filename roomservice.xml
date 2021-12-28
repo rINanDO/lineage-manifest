@@ -2,7 +2,7 @@
 <manifest>
 <remote  name="rinando"
            fetch="https://github.com"
-           revision="lineage-18.0" />
+           revision="lineage-19.0" />
 
 <!-- Galaxy S2 -->
   <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="rinando" />
@@ -20,4 +20,5 @@
   <project name="rinando/android_system_libhidl" path="system/libhidl" remote="rinando" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="rinando/android_frameworks_base" path="frameworks/base" remote="rinando" />
+
 </manifest>

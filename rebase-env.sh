@@ -65,8 +65,8 @@ do
 	git config credential.helper store
         case $ACTION in
          rebase )
-	        git fetch --unshallow $SOURCE_REPONAME
-	        git fetch --unshallow $TARGET_REPONAME
+	        git fetch $SOURCE_REPONAME
+	        git fetch $TARGET_REPONAME
 	        git checkout $TARGET_REPONAME/$TARGET_BRANCH
 		if [ -z "$SOURCE_BRANCH_IS_NOT_A_TAG" ]; then
 			git rebase $SOURCE_REPONAME/$SOURCE_BRANCH
@@ -91,7 +91,7 @@ do
 		git cherry-pick $PARAM2
 		;;
 	  checkout )
-		git fetch --unshallow $TARGET_REPONAME
+		git fetch $TARGET_REPONAME
 		git checkout $TARGET_REPONAME/$TARGET_BRANCH
 		;;		
 	esac
