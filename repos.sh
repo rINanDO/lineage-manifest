@@ -11,6 +11,7 @@ PROJECTS=(
 'bootable/recovery		https://github.com/lineageos/android_bootable_recovery		github	lineage-19.0	https://github.com/rinando/android_bootable_recovery		rinando	lineage-19.0	rebase'
 'build/make			https://github.com/lineageos/android_build			github	lineage-19.0	https://github.com/rinando/android_build			rinando	lineage-19.0	rebase'
 'build/soong			https://github.com/lineageos/android_soong			github	lineage-19.0	https://github.com/rinando/android_build_soong			rinando	lineage-19.0	rebase'
+'packages/modules/Permission	https://android.googlesource.com/platform/packages/modules/Permission	aosp	refs/tags/android-12.0.0_r12	https://github.com/rinando/android_packages_Permissions	rinando	lineage-19.0	rebase'
 'external/boringssl		https://android.googlesource.com/platform/external/boringssl	aosp	refs/tags/android-12.0.0_r12	https://github.com/rinando/android_external_boringssl	rinando	lineage-19.0	rebase'
 'external/ntfs-3g		https://github.com/LineageOS/android_external_ntfs-3g		github	lineage-19.0	https://github.com/rinando/android_external_ntfs-3g		rinando	lineage-19.0	checkout'
 'external/e2fsprogs		https://github.com/LineageOS/android_external_e2fsprogs		github	lineage-19.0	https://github.com/rinando/android_external_e2fsprogs		rinando	lineage-19.0	checkout'
