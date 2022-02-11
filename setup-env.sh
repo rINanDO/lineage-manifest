@@ -60,9 +60,7 @@ do
 	fi
 	git fetch $TARGET_REPONAME
 
-        if [ $ACTION == "checkout" ]; then
-            git checkout $TARGET_REPONAME/$TARGET_BRANCH
-        fi
+        git checkout $TARGET_REPONAME/$TARGET_BRANCH
         echo ""
 	COUNT=$(($COUNT + 1))
 done
