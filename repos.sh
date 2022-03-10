@@ -32,5 +32,10 @@ PROJECTS=(
 'device/samsung/smdk4412-common	https://github.com/lineageos/android_device_samsung_smdk4412-common	lineage	cm-14.1		https://github.com/rinando/android_device_samsung_smdk4412-common	rinando	lineage-19.0	checkout'
 'device/samsung/i9300		https://github.com/lineageos/android_device_samsung_i9300		lineage	cm-14.1		https://github.com/rinando/android_device_samsung_i9300			rinando	lineage-19.0	checkout'
 'kernel/samsung/smdk4412	https://github.com/lineageos/android_kernel_samsung_smdk4412		github	lineage-17.0	https://github.com/rinando/android_kernel_samsung_smdk4412		rinando	lineage-19.0	checkout'
+
+'device/samsung/herolte		https://github.com/lineageos/android_device_samsung_herolte		github	lineage-19.0	https://github.com/rinando/android_device_samsung_herolte		rinando	lineage-19.0	checkout'
+'device/samsung/universal8890-common	https://github.com/lineageos/android_device_samsung_universal8890	github	lineage-19.0	https://github.com/rinando/android_device_samsung_universal8890		rinando	lineage-19.0	checkout'
+'device/samsung_slsi/sepolicy	https://github.com/lineageos/android_device_samsung_slsi_sepolicy		github	lineage-19.0	https://github.com/rinando/android_device_samsung_slsi_sepolicy		rinando	lineage-19.0	checkout'
+'kernel/samsung/universal8890	https://github.com/lineageos/android_kernel_samsung_universal8890		github	lineage-19.0	https://github.com/rinando/android_kernel_samsung_universal8890		rinando	lineage-19.0	checkout'
 )
 
