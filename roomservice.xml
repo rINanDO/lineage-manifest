@@ -20,5 +20,9 @@
   <project name="rinando/android_system_libhidl" path="system/libhidl" remote="rinando" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="rinando/android_frameworks_base" path="frameworks/base" remote="rinando" />
-
+<!-- Galaxy S7 -->
+  <project name="rinando/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" />
+  <project name="rinando/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" remote="github" />
+  <project name="rinando/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
+  <project name="rinando/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" />
 </manifest>
