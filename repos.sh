@@ -16,14 +16,14 @@ PROJECTS=(
 'packages/modules/adb		https://github.com/lineageos/android_packages_modules_adb	github	lineage-19.1	https://github.com/rinando/android_packages_modules_adb		rinando	lineage-19.1	rebase'
 'packages/apps/Settings		https://github.com/LineageOS/android_packages_apps_Settings	github	lineage-19.1	https://github.com/rinando/android_packages_apps_Settings	rinando	lineage-19.1	checkout'
 
-'external/boringssl		https://android.googlesource.com/platform/external/boringssl	aosp	refs/tags/android-12.1.0_r5	https://github.com/rinando/android_external_boringssl	rinando	lineage-19.1	rebase'
+'external/boringssl		https://android.googlesource.com/platform/external/boringssl	aosp	refs/tags/android-12.1.0_r7	https://github.com/rinando/android_external_boringssl	rinando	lineage-19.1	rebase'
 'external/ntfs-3g		https://github.com/LineageOS/android_external_ntfs-3g		github	lineage-19.1	https://github.com/rinando/android_external_ntfs-3g		rinando	lineage-19.1	checkout'
 'external/e2fsprogs		https://github.com/LineageOS/android_external_e2fsprogs		github	lineage-19.1	https://github.com/rinando/android_external_e2fsprogs		rinando	lineage-19.1	checkout'
 'system/libhidl			https://github.com/LineageOS/android_system_libhidl	github	lineage-19.1	https://github.com/rinando/android_system_libhidl	rinando	lineage-19.1	rebase'
-'system/netd			https://github.com/lineageos/android_system_netd		aosp	refs/tags/android-12.1.0_r5	https://github.com/rinando/android_system_netd			rinando	lineage-19.1	rebase'
-'system/bpf			https://android.googlesource.com/platform/system/bpf		aosp	refs/tags/android-12.1.0_r5	https://github.com/rinando/android_system_bpf			rinando	lineage-19.1	rebase'
+'system/netd			https://github.com/lineageos/android_system_netd		aosp	refs/tags/android-12.1.0_r7	https://github.com/rinando/android_system_netd			rinando	lineage-19.1	rebase'
+'system/bpf			https://android.googlesource.com/platform/system/bpf		aosp	refs/tags/android-12.1.0_r7	https://github.com/rinando/android_system_bpf			rinando	lineage-19.1	rebase'
 
-'hardware/broadcom/wlan		https://android.googlesource.com/platform/hardware/broadcom/wlan		github	refs/tags/android-12.1.0_r5	https://github.com/rinando/android_hardware_broadcom_wlan	rinando	lineage-19.1	checkout'
+'hardware/broadcom/wlan		https://android.googlesource.com/platform/hardware/broadcom/wlan		github	refs/tags/android-12.1.0_r7	https://github.com/rinando/android_hardware_broadcom_wlan	rinando	lineage-19.1	checkout'
 'hardware/samsung		https://github.com/lineageos/android_hardware_samsung		lineage	lineage-19.1	https://github.com/rinando/android_hardware_samsung		rinando	lineage-19.1	rebase'
 'hardware/ril			https://github.com/lineageos/android_hardware_ril		github	lineage-19.1	https://github.com/rinando/android_hardware_ril			rinando	lineage-19.1	rebase'
 'vendor/samsung			https://github.com/themuppets/proprietary_vendor_samsung	themuppets	lineage-19.1	https://github.com/rinando/proprietary_vendor_samsung	rinando	lineage-19.1	checkout'
