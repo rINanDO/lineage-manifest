@@ -2,7 +2,7 @@
 <manifest>
 <remote  name="rinando"
            fetch="https://github.com"
-           revision="lineage-19.0" />
+           revision="lineage-19.1" />
 
 <!-- Galaxy S2 -->
   <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="rinando" />
