@@ -14,7 +14,7 @@ PROJECTS=(
 'build/soong			https://github.com/lineageos/android_soong			github	lineage-19.1	https://github.com/rinando/android_build_soong			rinando	lineage-19.1	rebase'
 'packages/modules/Permission	https://github.com/lineageos/android_packages_modules_Permission	github	lineage-19.1	https://github.com/rinando/android_packages_modules_Permission			rinando	lineage-19.1	rebase'
 'packages/modules/adb		https://github.com/lineageos/android_packages_modules_adb	github	lineage-19.1	https://github.com/rinando/android_packages_modules_adb		rinando	lineage-19.1	rebase'
-'packages/apps/Settings		https://github.com/LineageOS/android_packages_apps_Settings	github	lineage-19.1	https://github.com/rinando/android_packages_apps_Settings	rinando	lineage-19.1	checkout'
+'packages/apps/Settings		https://github.com/LineageOS/android_packages_apps_Settings	github	lineage-19.1	https://github.com/rinando/android_packages_apps_Settings	rinando	lineage-19.1	rebase'
 
 'external/boringssl		https://android.googlesource.com/platform/external/boringssl	aosp	refs/tags/android-12.1.0_r22	https://github.com/rinando/android_external_boringssl	rinando	lineage-19.1	rebase'
 'external/ntfs-3g		https://github.com/LineageOS/android_external_ntfs-3g		github	lineage-19.1	https://github.com/rinando/android_external_ntfs-3g		rinando	lineage-19.1	checkout'
