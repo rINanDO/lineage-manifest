@@ -2,22 +2,15 @@
 <manifest>
 <remote  name="rinando"
            fetch="https://github.com"
-           revision="lineage-19.1" />
+           revision="lineage-20.0" />
 
 <!-- Galaxy S2 -->
   <project name="rinando/android_device_samsung_i9100" path="device/samsung/i9100" remote="rinando" />
   <project name="rinando/android_device_samsung_galaxys2-common" path="device/samsung/galaxys2-common" remote="rinando" />
-<!-- Galaxy S3 -->
-  <project name="rinando/android_device_samsung_i9300" path="device/samsung/i9300" remote="rinando" />
-  <project name="rinando/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="rinando" />
- <!-- Shared Galaxy S2 and Galaxy S3 -->
+<!-- Shared Galaxy S2 and Galaxy S3 -->
   <project name="rinando/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="rinando" />
 <!-- Shared Samsung -->
   <project name="rinando/android_hardware_samsung" path="hardware/samsung" remote="rinando" />
   <project name="rinando/proprietary_vendor_samsung" path="vendor/samsung" remote="rinando" />
-<!-- Galaxy S7 -->
-  <project name="rinando/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" />
-  <project name="rinando/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" remote="github" />
-  <project name="rinando/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
-  <project name="rinando/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" />
 </manifest>
+
