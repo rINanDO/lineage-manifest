@@ -13,7 +13,7 @@ PROJECTS=(
 
 
 #Memfd
-'art				https://android.googlesource.com/platform/art			aosp	refs/tags/android-13.0.0_r8	https://github.com/rinando/android_art				rinando	lineage-20.0-ul	rebase'
+'art				https://android.googlesource.com/platform/art			aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_art				rinando	lineage-20.0-ul	rebase'
 # home/wake-button and camera extensions
 'system/core			https://github.com/lineageos/android_system_core		losul	lineage-20.0	https://github.com/rinando/android_system_core			rinando	lineage-20.0-ul	rebase'
 # Mali crash-fix, StorageXML, ColorFade, Camera, Memory trim
@@ -27,16 +27,16 @@ PROJECTS=(
 # Legacy ADB Function FS
 'packages/modules/adb		https://github.com/lineageos/android_packages_modules_adb	losul	lineage-20.0	https://github.com/rinando/android_packages_modules_adb		rinando	lineage-20.0-ul	rebase'
 #Fix network BPF wifi issues...
-'frameworks/libs/net		https://android.googlesource.com/platform/frameworks/libs/net 		aosp	refs/tags/android-13.0.0_r8	https://github.com/rinando/android_frameworks_libs_net		rinando	lineage-20.0-ul	rebase'
+'frameworks/libs/net		https://android.googlesource.com/platform/frameworks/libs/net 		aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_frameworks_libs_net		rinando	lineage-20.0-ul	rebase'
 'packages/modules/Connectivity			https://github.com/LineageOS/android_packages_modules_Connectivity		losul	lineage-20.0	https://github.com/rinando/android_packages_modules_Connectivity			rinando	lineage-20.0-ul	rebase'
-'packages/modules/NetworkStack			https://android.googlesource.com/platform/packages/modules/NetworkStack		aosp	refs/tags/android-13.0.0_r8	https://github.com/rINanDO/android_packages_modules_NetworkStack			rinando	lineage-20.0-ul	rebase'
-'system/netd			https://github.com/lineageos/android_system_netd		aosp	refs/tags/android-13.0.0_r8	https://github.com/rinando/android_system_netd			rinando	lineage-20.0-ul	rebase'
+'packages/modules/NetworkStack			https://android.googlesource.com/platform/packages/modules/NetworkStack		aosp	refs/tags/android-13.0.0_r11	https://github.com/rINanDO/android_packages_modules_NetworkStack			rinando	lineage-20.0-ul	rebase'
+'system/netd			https://github.com/lineageos/android_system_netd		aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_system_netd			rinando	lineage-20.0-ul	rebase'
 'system/memory/lmkd			https://github.com/lineageos/android_system_memory_lmkd 		github	lineage-20.0	https://github.com/rinando/android_system_memory_lmkd			rinando	lineage-20.0-ul	rebase'
 
 # Disable BPF loading modules
-'system/bpf			https://android.googlesource.com/platform/system/bpf		aosp	refs/tags/android-13.0.0_r8	https://github.com/rinando/android_system_bpf			rinando	lineage-20.0-ul	rebase'
+'system/bpf			https://android.googlesource.com/platform/system/bpf		aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_system_bpf			rinando	lineage-20.0-ul	rebase'
 # Fix memfd
-'external/perfetto			https://android.googlesource.com/platform/external/perfetto	aosp	refs/tags/android-13.0.0_r8	https://github.com/rinando/android_external_perfetto	rinando	lineage-20.0-ul	rebase'
+'external/perfetto			https://android.googlesource.com/platform/external/perfetto	aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_external_perfetto	rinando	lineage-20.0-ul	rebase'
 
 # Build fix
 'hardware/lineage/interfaces	https://github.com/LineageOS/android_hardware_lineage_interfaces	losul	lineage-20.0	https://github.com/rinando/android_hardware_lineage_interfaces	rinando	lineage-20.0-ul	rebase'
