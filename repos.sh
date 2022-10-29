@@ -17,6 +17,8 @@ PROJECTS=(
 
 # Fix bluetooth audio
 'packages/modules/Bluetooth				https://android.googlesource.com/platform/packages/modules/Bluetooth			aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_packages_modules_bluetooth 			rinando	lineage-20.0-ul	rebase'
+
+'system/libhwbinder				https://android.googlesource.com/platform/system/libhwbinder 			aosp	refs/tags/android-13.0.0_r11	https://github.com/rinando/android_system_libhwbinder 			rinando	lineage-20.0-ul	rebase'
 # home/wake-button and camera extensions
 'system/core			https://github.com/lineageos/android_system_core		losul	lineage-20.0	https://github.com/rinando/android_system_core			rinando	lineage-20.0-ul	rebase'
 # Mali crash-fix, StorageXML, ColorFade, Camera, Memory trim
