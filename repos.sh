@@ -41,8 +41,11 @@ PROJECTS=(
 # home/wake-button and camera extensions
 'system/core			https://github.com/lineageos/android_system_core		github	lineage-20.0	https://github.com/rinando/android_system_core			rinando	lineage-20.0	rebase'
 
-# Mali crash-fix, StorageXML, ColorFade, Camera, Memory trim
+# Mali crash-fix, StorageXML, ColorFade, Camera, Memory trim, MicroG signature spoofing [1/2]
 'frameworks/base		https://github.com/lineageos/android_frameworks_base		github	lineage-20.0	https://github.com/rinando/android_frameworks_base		rinando	lineage-20.0	rebase'
+
+#MicroG signature spoofing [2/2]
+'packages/modules/Permission		https://github.com/lineageos/android_packages_modules_permission		github	lineage-20.0	https://github.com/rinando/android_packages_modules_permission 		rinando	lineage-20.0	rebase'
 
 # Camera, codecs support
 'frameworks/av			https://github.com/lineageos/android_frameworks_av		github	lineage-20.0	https://github.com/rinando/android_frameworks_av		rinando	lineage-20.0	rebase'
